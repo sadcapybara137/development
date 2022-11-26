@@ -5,9 +5,9 @@ import {cloneElement, useState} from "react";
 
 function App() {
   const bakeryData = [
-    { name: "Bread", gf: false, vegan: true, price: 3.79, image: "/images/bread.jpg"},
-    { name: "Macaron", gf: true, vegan: false, price: 1.99, image: "/images/macaron.jpg"},
-    { name: "Blueberry Muffin", gf: true, vegan: true, price: 2.69, image: "/images/blueberry_muffin.jpg"},
+    { name: "Bread", gf: false, vegan: true, price: 3.79, image: "../images/bread.jpg"},
+    { name: "Macaron", gf: true, vegan: false, price: 1.99, image: "public/images/macaron.jpg"},
+    { name: "Blueberry Muffin", gf: true, vegan: true, price: 2.69, image: "src/public/images/blueberry_muffin.jpg"},
     { name: "Pizza Roll-ups", gf: false, vegan: false, price: 5.99, image: "/images/pizza_rolls.jpg"},
     { name: "Chocolate Chip Muffin", gf: true, vegan: false, price: 1.79, image: "/images/cupcake.jpg"},
     { name: "Holiday Cookie", gf: true, vegan: true, price: 1.99, image: "/images/holiday_cookie.jpg"},
