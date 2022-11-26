@@ -2,6 +2,105 @@
   text-align: center;
 }
 
+.items_block {
+  margin-left: 5%;
+  padding-top: 2rem;
+  background-color: #ffc3b3;
+  border-radius: 25px;
+  width: 65%;
+}
+
+.top_banner {
+  background-color: #ffc3b3;
+  width: 50%;
+  margin: auto;
+  border-radius: 25px;
+  font-family: cursive;
+  font-weight: bold;
+  color: #b26b0e
+}
+
+.diet {
+  font-size: 1.5rem;
+}
+
+button {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.logo {
+  font-size: 5rem;
+}
+
+.filter_item_cont {
+  margin-top: 1rem;
+  margin-left: 5%;
+  display: flex;
+  align-content: space-between;
+}
+
+
+
+.filter {
+  font-family: "monospace";
+}
+
+button {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.filters {
+  padding-top: 1rem;
+  margin-left: 5%;
+  padding-bottom: 3rem;
+  margin-bottom: auto;
+  background-color: #ffc3b3;
+  border-radius: 25px;
+  font-size: 2rem;
+}
+
+.filters_cart {
+  width: 20%;
+}
+
+.cart {
+  margin-top: 3rem;
+  min-width: 15%;
+  margin-left: 5%;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  margin-bottom: auto;
+  background-color: #ffc3b3;
+  border-radius: 25px;
+  font-size: 2rem;
+}
+
+h2 {
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.product_box {
+  width: 40%;
+  margin: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 25px;
+  display: inline-block;
+  background-color: rgba(22,25,25,0.25);
+}
+
+img {
+  padding-top: 2rem;
+  width: 80%;
+  height: 100%;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -28,6 +127,11 @@
   color: #61dafb;
 }
 
+input {
+  width: 30px;
+  height: 30px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +140,5 @@
     transform: rotate(360deg);
   }
 }
+
+
