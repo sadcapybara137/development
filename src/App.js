@@ -5,18 +5,18 @@ import {cloneElement, useState} from "react";
 
 function App() {
   const bakeryData = [
-    { name: "Bread", gf: false, vegan: true, price: 3.79, image: "../images/bread.jpg"},
-    { name: "Macaron", gf: true, vegan: false, price: 1.99, image: "public/images/macaron.jpg"},
-    { name: "Blueberry Muffin", gf: true, vegan: true, price: 2.69, image: "src/public/images/blueberry_muffin.jpg"},
-    { name: "Pizza Roll-ups", gf: false, vegan: false, price: 5.99, image: "../public/images/pizza_rolls.jpg"},
-    { name: "Chocolate Chip Muffin", gf: true, vegan: false, price: 1.79, image: "/images/cupcake.jpg"},
-    { name: "Holiday Cookie", gf: true, vegan: true, price: 1.99, image: "/images/holiday_cookie.jpg"},
-    { name: "Chocolate Tart", gf: false, vegan: false, price: 5.79, image: "/images/chocolate_tart.jpg"},
-    { name: "Strawberry Creampuff", gf: true, vegan: false, price: 3.99, image: "/images/strawberry_creampuff.jpg"},
-    { name: "Lava Cake", gf: false, vegan: true, price: 3.39, image: "/images/lava_cake.jpg"},
-    { name: "Powdered Donuts", gf: false, vegan: false, price: 3.19, image: "/images/powdered_donuts.jpg"},
-    { name: "Chocolate Croissant", gf: true, vegan: true, price: 2.49, image: "/images/chocolate_croissant.jpg"},
-    { name: "Cheesecake", gf: true, vegan: false, price: 4.49, image: "/images/cheesecake.jpg"}
+    { name: "Bread", gf: false, vegan: true, price: 3.79, image: "images/bread.jpg"},
+    { name: "Macaron", gf: true, vegan: false, price: 1.99, image: "images/macaron.jpg"},
+    { name: "Blueberry Muffin", gf: true, vegan: true, price: 2.69, image: "images/blueberry_muffin.jpg"},
+    { name: "Pizza Roll-ups", gf: false, vegan: false, price: 5.99, image: "images/pizza_rolls.jpg"},
+    { name: "Chocolate Chip Muffin", gf: true, vegan: false, price: 1.79, image: "images/cupcake.jpg"},
+    { name: "Holiday Cookie", gf: true, vegan: true, price: 1.99, image: "images/holiday_cookie.jpg"},
+    { name: "Chocolate Tart", gf: false, vegan: false, price: 5.79, image: "images/chocolate_tart.jpg"},
+    { name: "Strawberry Creampuff", gf: true, vegan: false, price: 3.99, image: "images/strawberry_creampuff.jpg"},
+    { name: "Lava Cake", gf: false, vegan: true, price: 3.39, image: "images/lava_cake.jpg"},
+    { name: "Powdered Donuts", gf: false, vegan: false, price: 3.19, image: "images/powdered_donuts.jpg"},
+    { name: "Chocolate Croissant", gf: true, vegan: true, price: 2.49, image: "images/chocolate_croissant.jpg"},
+    { name: "Cheesecake", gf: true, vegan: false, price: 4.49, image: "images/cheesecake.jpg"}
 
   ];
   const [cart, setCart] = useState([]);
